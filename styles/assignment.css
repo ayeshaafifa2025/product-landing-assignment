@@ -148,3 +148,13 @@ nav li a{
 .property{
     border-radius: 50%;
 }
+.fifth{
+    font-size: 97px;
+    color: #000000;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 150px;
+}
