@@ -23,6 +23,10 @@ nav{display: flex;
 nav li{
     list-style: none;
 }
+button:hover{
+    color: #000000;
+    background-color: chocolate;
+}
 nav li a{
     text-decoration: none;
 }
@@ -30,10 +34,12 @@ nav li a{
     font-size: 34px;
     font-weight: 800;
     
+    
 }
-.primary-color{
+.primary-button{
     color: #4E47FF;
 }
+
 .btn-primary{
     background-color: #4E47FF;
     font-weight: bold;
@@ -42,7 +48,9 @@ nav li a{
     border: none;
     border-radius: 5px;
     font-size: 16px;
-    transition-property: ;
+    cursor: pointer;
+    
+    
     
 
 }
@@ -174,4 +182,28 @@ nav li a{
 .more{
     border-radius: 10px;
     
+}
+.last-box{
+    height: 500px;
+    background-color: #FFFFFF;
+    
+}
+.last-button{
+    font-weight: bold;
+    font-size: 85px;
+    color: #4E47FF;
+    text-align: center;
+
+}
+
+.internal{
+    padding: 104px 455px 100px 455px;
+}
+.last-color{
+    color: #8987A1;
+    text-align: center;
+}
+.last-flex{
+    display: flex;
+    justify-content: space-around;
 }
