@@ -156,5 +156,22 @@ nav li a{
 .container{
     display: flex;
     justify-content: space-between;
-    margin: 100px 150px;
+    margin: 100px 160px;
+}
+.width{
+    width: 497px;
+}
+.height1{
+    height: 70px;
+    
+}
+.height2{
+    height: 135px;
+}
+.height3{
+    height: 62px;
+}
+.more{
+    border-radius: 10px;
+    
 }
