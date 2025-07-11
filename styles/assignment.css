@@ -1,0 +1,150 @@
+/* first portion */
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+body{
+    background-color: aliceblue;
+}
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+nav{display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 150px;
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+}
+.inter-font{
+    font-size: 34px;
+    font-weight: 800;
+    
+}
+.primary-color{
+    color: #4E47FF;
+}
+.btn-primary{
+    background-color: #4E47FF;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition-property: ;
+    
+
+}
+
+.banner-content{
+    text-align: center;
+}
+.banner-description{
+    font-weight: bold;
+    font-size: 65px;
+    color: #252432;
+}
+.header{
+    background-image: url('../Assets/Hero-bg.png');
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    /* margin: 0px; */
+}
+
+/* second portion */
+.action{
+    display: flex;
+    justify-content: space-between;
+    margin: 122px 151px 110px 149px;
+    height: 328px;
+    width: 1123px;
+}
+.decoration{
+    border-radius: 60px;
+    height: 328px;
+    width: 403px;
+}
+.action-content{
+    height: 203px;
+    width: 517px;
+    margin: 62.5px
+}
+.secondary-bg{
+    background-color: #B3B3B3;
+    margin: 110px 159px 137px 141px;
+    padding: 50px 80px;
+    height: 306px;
+    max-width: 1140px;
+    border-radius: 20px;
+}
+.users{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.bolding{
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+}
+.enlarging{
+    font-size: 70px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+
+ .minimize{
+    font-size: 16px;
+}
+
+.review-section{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    
+    
+}
+.title{
+    text-align: center;
+
+}
+.review{
+    margin: 123px 149px 137px 151px;
+}
+.review-background{
+    box-shadow: 0px 4px 5px;
+    border-radius: 20px;
+    padding: 24px;
+
+    
+}
+.paragraph{
+    color: #757575;
+
+}
+.fade{
+    color: #B3B3B3;
+}
+.content{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+
+}
+.property{
+    border-radius: 50%;
+}
